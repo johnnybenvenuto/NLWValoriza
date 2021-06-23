@@ -1,0 +1,19 @@
+
+#AULA 2
+Knexjs => Framework para automatizar o acesso aos dados DB. (Query Builder)
+ORM => Frameworks para automatizar mapeamento Entidade/Objeto.
+- Sequelize
+- TypeORM
+=> reflect-metadata => biblioteca para decorators
+- PRISMA (Next-Generation)
+SQLite (PostgreSQL/MySQL/Oracle)
+- Migrations (Controle de alteraçãos do DB)
+
+Entity (User) <-> ORM <-> BD (users)
+              repositórios
+
+#Repository
+Server -> (      ) -> Service -> Reposictories -> BD
+
+#Controller (Request, Response) => Pega informação do Server.ts e repassar para Service.
+-> Server -> Controller -> Service -> ...

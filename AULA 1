@@ -1,0 +1,9 @@
+#AULA 1
+- Configurar ambiente Node.js/Yarn/VSCode
+- Instalar Themas
+- Criar projeto Node.js
+- Criação de uma API
+- Yarn => adicionar extensões (Similar npn)
+- Métodos de uma API (Get,Post,Put,Delete,Patch)
+- Express => Framework para criar API em Node.js
+- TypeScript => Super Set JavaScript (JS Modificado)

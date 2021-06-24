@@ -10,11 +10,11 @@
 
 - Cadastrar TAG
 
-  [ ] Não é permitido cadastrar mais de uma tag com o mesmo nome.
+  [ X ] Não é permitido cadastrar mais de uma tag com o mesmo nome.
 
-  [ ] Não é permitido cadastrar TAG sem nome.
+  [ X ] Não é permitido cadastrar TAG sem nome.
 
-  [ ] Não é permitido o cadastro por usuário que não sejam administradores.
+  [ X ] Não é permitido o cadastro por usuário que não sejam administradores.
 
 - Cadastro de Elogios
   [ ] Não é permitido um usuário cadastrar um elogio para si.

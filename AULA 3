@@ -1,0 +1,16 @@
+# Recaptulação (AULA 2)
+- Migration => Controle de versionamento e criação do BD.
+- ORM => Responsável por pegar o objeto e traduz para o Banco de dados.
+    -> Objeto <-> BD
+- Entidade => Representa a tabela do BD.
+- Repositório => Camada de comunicação entre nossas Entidades e BD.
+- Service => Camada responsável pelas regras da aplicação
+- Controller => Recebe os dados das requisições enviando para o Service.
+- Routes => Arquivo de Rotas para as requisições.
+
+#Aula 3
+Server -> Routes -> Controller -> Service (throw new Error)
+
+- Middleware => Interceptadores para requisições, possibilitando a interrompção das mesmas.
+
+- Por padrão o Express não tem suporte para os erros async, para isso usamos uma biblioteca (yarn add express-async-errors)

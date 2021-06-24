@@ -2,6 +2,8 @@
 #AULA 2
 Knexjs => Framework para automatizar o acesso aos dados DB. (Query Builder)
 ORM => Frameworks para automatizar mapeamento Entidade/Objeto.
+    -> Responsável por pegar o objeto e traduz para o Banco de dados.
+
 - Sequelize
 - TypeORM
 => reflect-metadata => biblioteca para decorators
@@ -12,7 +14,7 @@ SQLite (PostgreSQL/MySQL/Oracle)
 Entity (User) <-> ORM <-> BD (users)
               repositórios
 
-#Repository
+#Repository => Camada de comunicação entre nossas Entidades e BD.
 Server -> (      ) -> Service -> Reposictories -> BD
 
 #Controller (Request, Response) => Pega informação do Server.ts e repassar para Service.

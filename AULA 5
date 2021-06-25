@@ -1,0 +1,33 @@
+# Recaptulação Aula 3
+- JWT - Usando JWT e gerando Token de autenticação.
+- Authenticação de usuário.
+- Criação da tabela Compliments.
+  --> Criando relacionamento entre tabelas.
+
+#### AULA 5 ####
+
+- Criar validação de Token
+- Criar uma Middleware para utilizar a Validação de Token
+
+- Criar métodos GET.
+  --> Listar dados do BD.
+  
+- Manipular Informações do GET para exibir ao usuário na requisição.
+
+-Usar class-transformer
+--> classToPlain
+--> Expose = exibir uma informação que não existia
+--> Exclue = exconder uma informação (password)
+
+-Importação do Cors (Biblioteca para permitir que Frond-End acesse API)
+-Importação do @types/Cors
+-Implementação do Cors
+
+#Idéias
+- Notificação enviando o e-mail do elogio.
+- Colocar em produção (Heroku (gratuito), Amazon, digital Ocean)
+- Criar front-end
+- CleanCode, Solid, 
+- Criar uma class handle para erros, criar erros customizáveis.
+- Buscas por campos específicos.
+- Gerenciamento de erros da API

@@ -1,0 +1,12 @@
+# Recaptulação Aula 3
+- Middleware.
+-Criação do cadastro de Tag's.
+-Tratar Erros com Middleware.
+
+
+# AULA 4
+
+-JWT (JSON Web Tokens) => Padrão de Tokens com propriedades específicas.
+  --> Possibilita a gente utilizar um token para usar nas requisições autenticadas.
+  ->Import bcryptjs
+  ->Import @types/bcryptjs
